@@ -11,13 +11,13 @@ function calculPrix(nbPersonnes, typeCours) {
     
     switch(typeCours) {
         case "débutant": 
-            prixUnitaire = 250; 
+            prixUnitaire = 1000; 
             break;
         case "intermédiaire": 
-            prixUnitaire = 300; 
+            prixUnitaire = 1500; 
             break;
         case "prive": 
-            prixUnitaire = 450; 
+            prixUnitaire = 3000; 
             break;
         default: 
             prixUnitaire = 0;
